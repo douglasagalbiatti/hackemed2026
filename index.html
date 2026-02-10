@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HackEmed 2026 — IoT, Edge & Green IT</title>
+  <meta name="description" content="Página oficial do Hackathon da turma — informações, cronograma, regras e inscrição de grupos." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" role="banner">
+    <div class="container topbar__inner">
+      <div class="brand" aria-label="HackEmed 2026">
+        <div class="brand__mark" aria-hidden="true"></div>
+        <div class="brand__text">
+          <div class="brand__name">HackEmed 2026</div>
+          <div class="brand__tag">IoT • Edge • Green IT</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <div class="nav__menu" id="navMenu">
+          <a href="#sobre">Sobre</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#cronograma">Cronograma</a>
+          <a href="#regras">Regras</a>
+          <a href="#avaliacao">Avaliação</a>
+          <a href="#perguntas">FAQ</a>
+        </div>
+      </nav>
+
+      <div class="topbar__cta">
+        <a class="btn btn--primary" id="ctaInscricaoTop" href="#inscricao">Inscrever grupo</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-label="Abertura">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="pill">Hackathon SENAC/Bauru</p>
+          <h1>Soluções com IoT, Edge Computing e Green IT.</h1>
+          <p class="lead">
+            Aqui você encontra tema, regras, cronograma, critérios de avaliação e o link para inscrição do seu grupo.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" id="ctaInscricaoHero" href="#inscricao">Ir para inscrição</a>
+            <a class="btn btn--ghost" href="#cronograma">Ver cronograma</a>
+          </div>
+
+          <dl class="quick" aria-label="Informações rápidas">
+            <div class="quick__item">
+              <dt>Formato</dt>
+              <dd>Grupos • Prototipação • Pitch</dd>
+            </div>
+            <div class="quick__item">
+              <dt>Entrega</dt>
+              <dd>Projeto + apresentação</dd>
+            </div>
+            <div class="quick__item">
+              <dt>Foco</dt>
+              <dd>Eficiência, viabilidade e impacto</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero__card" aria-label="Resumo do desafio">
+          <div class="card">
+            <h2 class="card__title">Desafio</h2>
+            <p class="card__text">Propor uma solução que use sensores/dispositivos (IoT), processamento local (Edge) e boas práticas de sustentabilidade (Green IT).</p>
+
+            <div class="card__grid">
+              <div class="mini">
+                <div class="mini__k">IoT</div>
+                <div class="mini__v">Coleta de dados</div>
+              </div>
+              <div class="mini">
+                <div class="mini__k">Edge</div>
+                <div class="mini__v">Decisão local</div>
+              </div>
+              <div class="mini">
+                <div class="mini__k">Green IT</div>
+                <div class="mini__v">Eficiência energética</div>
+              </div>
+              <div class="mini">
+                <div class="mini__k">Impacto</div>
+                <div class="mini__v">Benefício real</div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="muted">
+              Dica: use esta página como referência única. Atualizações serão publicadas aqui.
+            </p>
+          </div>
+        </aside>
+      </div>
+      <div class="hero__bg" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section__head">
+          <h2>Sobre o HackEmed 2026</h2>
+          <p>
+            Este hackathon foi pensado para exercitar criação de produto, arquitetura e comunicação do problema ao protótipo. O objetivo é desenvolver uma solução coerente, viável e alinhada a sustentabilidade.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="panel">
+            <h3>O que entregar</h3>
+            <ul>
+              <li>Descrição do problema e público-alvo</li>
+              <li>Proposta de solução e arquitetura (IoT/Edge)</li>
+              <li>Protótipo (pode ser simulação)</li>
+              <li>Plano de sustentabilidade (Green IT)</li>
+              <li>Pitch final</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>O que será avaliado</h3>
+            <ul>
+              <li>Clareza do problema e proposta de valor</li>
+              <li>Coerência técnica (IoT/Edge)</li>
+              <li>Eficiência e impacto ambiental</li>
+              <li>Viabilidade e segurança</li>
+              <li>Qualidade do pitch</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Para quem é</h3>
+            <ul>
+              <li>Alunos da turma (grupos)</li>
+              <li>Iniciantes e avançados (tarefas podem ser divididas)</li>
+              <li>Foco em aprendizagem e experimentação</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="como-funciona">
+      <div class="container">
+        <div class="section__head">
+          <h2>Como funciona</h2>
+          <p>Um roteiro simples para guiar seu grupo do início ao pitch.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <div class="step__n">1</div>
+            <div class="step__c">
+              <h3>Forme o grupo e escolha um problema</h3>
+              <p>Defina o contexto, stakeholders e métricas de sucesso (impacto e eficiência).</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step__n">2</div>
+            <div class="step__c">
+              <h3>Desenhe a solução IoT + Edge</h3>
+              <p>Quais sensores? Qual processamento local? O que vai para nuvem? Como garantir privacidade?</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step__n">3</div>
+            <div class="step__c">
+              <h3>Prototipe e valide</h3>
+              <p>Faça um MVP: simule dados, crie uma interface, valide com cenários de uso.</p>
+            </div>
+          </li>
+          <li class="step">
+            <div class="step__n">4</div>
+            <div class="step__c">
+              <h3>Finalize e apresente</h3>
+              <p>Prepare o pitch: problema, solução, demo, impacto, custos e próximos passos.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="cronograma">
+      <div class="container">
+        <div class="section__head">
+          <h2>Cronograma</h2>
+          <p>Preencha com as datas oficiais (você pode editar depois facilmente).</p>
+        </div>
+
+        <div class="timeline" role="list">
+          <div class="time" role="listitem">
+            <div class="time__dot"></div>
+            <div class="time__body">
+              <div class="time__top">
+                <div class="time__title">Lançamento do desafio</div>
+                <div class="time__date">09/03</div>
+              </div>
+              <p>Apresentação do tema, regras e exemplos de escopo.</p>
+            </div>
+          </div>
+
+          <div class="time" role="listitem">
+            <div class="time__dot"></div>
+            <div class="time__body">
+              <div class="time__top">
+                <div class="time__title">Inscrição dos grupos</div>
+                <div class="time__date">Até 31/03</div>
+              </div>
+              <p>Cadastre seu grupo e escolha um tema/problema (ou deixe em aberto).</p>
+            </div>
+          </div>
+
+          <div class="time" role="listitem">
+            <div class="time__dot"></div>
+            <div class="time__body">
+              <div class="time__top">
+                <div class="time__title">Checkpoint (opcional)</div>
+                <div class="time__date">30/06</div>
+              </div>
+              <p>Revisão rápida do direcionamento: arquitetura, impacto e riscos.</p>
+            </div>
+          </div>
+
+          <div class="time" role="listitem">
+            <div class="time__dot"></div>
+            <div class="time__body">
+              <div class="time__top">
+                <div class="time__title">Entrega final</div>
+                <div class="time__date">23/10</div>
+              </div>
+              <p>Envio do material e do link do protótipo (se houver).</p>
+            </div>
+          </div>
+
+          <div class="time" role="listitem">
+            <div class="time__dot"></div>
+            <div class="time__body">
+              <div class="time__top">
+                <div class="time__title">Apresentações (Pitch)</div>
+                <div class="time__date">30/10</div>
+              </div>
+              <p>Pitches + perguntas. Feedback e encerramento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="regras">
+      <div class="container">
+        <div class="section__head">
+          <h2>Regras e orientações</h2>
+          <p>Use como base; ajuste conforme sua turma.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="panel">
+            <h3>Equipe e conduta</h3>
+            <ul>
+              <li>Trabalho em grupo com divisão clara de responsabilidades.</li>
+              <li>Respeito, colaboração e registro de decisões.</li>
+              <li>Fontes e referências devem ser citadas.</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Escopo e tecnologia</h3>
+            <ul>
+              <li>Obrigatório abordar IoT, Edge e Green IT de forma explícita.</li>
+              <li>Protótipo pode ser simulado, desde que bem justificado.</li>
+              <li>Evite soluções vagas: apresente componentes e fluxo de dados.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout" role="note">
+          <div class="callout__icon" aria-hidden="true"></div>
+          <div class="callout__body">
+            <h3>Privacidade e segurança</h3>
+            <p>
+              Se usar dados pessoais/saúde/localização, explique minimização de dados, consentimento e proteção.
+              (Mesmo em protótipo.)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="avaliacao">
+      <div class="container">
+        <div class="section__head">
+          <h2>Critérios de avaliação (sugestão)</h2>
+          <p>Você pode ajustar os pesos. Deixei uma estrutura pronta para copiar/editar.</p>
+        </div>
+
+        <div class="rubric" role="table" aria-label="Rubrica de avaliação">
+          <div class="rubric__row rubric__head" role="row">
+            <div role="columnheader">Critério</div>
+            <div role="columnheader">O que observar</div>
+            <div role="columnheader">Peso</div>
+          </div>
+
+          <div class="rubric__row" role="row">
+            <div role="cell"><strong>Problema & valor</strong></div>
+            <div role="cell">Clareza do problema, público e proposta de valor.</div>
+            <div role="cell">25%</div>
+          </div>
+
+          <div class="rubric__row" role="row">
+            <div role="cell"><strong>Arquitetura IoT/Edge</strong></div>
+            <div role="cell">Fluxo de dados, componentes, decisões de borda vs nuvem.</div>
+            <div role="cell">25%</div>
+          </div>
+
+          <div class="rubric__row" role="row">
+            <div role="cell"><strong>Green IT</strong></div>
+            <div role="cell">Eficiência, sustentabilidade, descarte/vida útil, consumo.</div>
+            <div role="cell">20%</div>
+          </div>
+
+          <div class="rubric__row" role="row">
+            <div role="cell"><strong>Protótipo & demonstração</strong></div>
+            <div role="cell">MVP funcional (ou simulação convincente), métricas/validação.</div>
+            <div role="cell">20%</div>
+          </div>
+
+          <div class="rubric__row" role="row">
+            <div role="cell"><strong>Pitch</strong></div>
+            <div role="cell">Storytelling, clareza, tempo e capacidade de responder perguntas.</div>
+            <div role="cell">10%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="inscricao">
+      <div class="container">
+        <div class="section__head">
+          <h2>Inscrição do grupo</h2>
+          <p>Use o botão abaixo para abrir o formulário da Microsoft e cadastrar seu grupo.</p>
+        </div>
+
+        <div class="signup">
+          <div class="signup__box">
+            <h3>Link do formulário</h3>
+            <p class="muted">
+            </p>
+
+            <div class="signup__actions">
+              <a class="btn btn--primary" id="googleFormLink" href="https://forms.cloud.microsoft/r/tf24Sd7T1Q" target="_blank" rel="noopener">Abrir formulário de inscrição</a>
+              <button class="btn btn--ghost" id="copyLink" type="button">Copiar link</button>
+            </div>
+
+            <p class="tiny">Se o botão não abrir, copie e cole no navegador:</p>
+            <code class="code" id="formUrlText">https://forms.cloud.microsoft/r/tf24Sd7T1Q</code>
+          </div>
+
+          <div class="signup__tips">
+            <h3>O que levar para a inscrição</h3>
+            <ul>
+              <li>Nome do grupo</li>
+              <li>Nomes e e-mails dos integrantes</li>
+              <li>Tema escolhido</li>
+              <li>Ideia inicial de solução (rascunho)</li>
+            </ul>
+
+            <div class="badge">Duração da inscrição: ~2 minutos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="perguntas">
+      <div class="container">
+        <div class="section__head">
+          <h2>Perguntas frequentes</h2>
+        </div>
+
+        <div class="faq" role="list">
+          <details class="faq__item" role="listitem">
+            <summary>Precisamos de hardware real?</summary>
+            <div class="faq__body">Não necessariamente. Um protótipo simulado é aceito, desde que vocês expliquem sensores/atuadores e o fluxo de dados com clareza.</div>
+          </details>
+          <details class="faq__item" role="listitem">
+            <summary>Podemos usar IA?</summary>
+            <div class="faq__body">Sim. Só deixem claro onde a IA roda (Edge ou nuvem), custo/latência e como isso afeta consumo de energia.</div>
+          </details>
+          <details class="faq__item" role="listitem">
+            <summary>Quantos slides no pitch?</summary>
+            <div class="faq__body">Sugestão: 6–10 slides. Ajuste conforme o tempo de apresentação definido pela banca julgadora.</div>
+          </details>
+          <details class="faq__item" role="listitem">
+            <summary>Onde tirar dúvidas?</summary>
+            <div class="faq__body">Use o canal oficial da turma (ou informe um e-mail de contato no rodapé).</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container footer__inner">
+        <div>
+          <div class="footer__brand">HackEmed 2026</div>
+          <div class="footer__muted">IoT • Edge • Green IT</div>
+        </div>
+
+        <div class="footer__links" aria-label="Links">
+          <a href="#inscricao">Inscrição</a>
+          <a href="#regras">Regras</a>
+          <a href="#cronograma">Cronograma</a>
+        </div>
+
+        <div class="footer__small">© <span id="year"></span></div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -214,7 +214,7 @@ h1{
 .muted{ color: var(--muted); }
 
 .section{ padding: 56px 0; }
-.section--alt{ background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.00)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.section--alt{ background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.00)); border-top: 2px solid var(--line); border-bottom: 1px solid var(--line); }
 .section__head{ max-width: 80ch; }
 .section__head h2{ margin: 0 0 10px; font-size: 28px; letter-spacing: -0.4px; }
 .section__head p{ margin: 0; color: var(--muted); line-height: 1.6; }

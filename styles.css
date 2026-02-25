@@ -80,12 +80,14 @@ padding: 14px 0;
 
 .brand{ display: flex; align-items: center; gap: 12px; min-width: 220px; }
 .brand__mark{
-width: 42px; height: 42px; border-radius: 14px;
-background:
-radial-gradient(12px 12px at 30% 30%, rgba(255,255,255,0.22), transparent 60%),
-linear-gradient(135deg, rgba(48,120,0,0.95), rgba(24,48,48,0.95));
-box-shadow: 0 10px 35px rgba(0,0,0,0.45);
-border: 1px solid rgba(255,255,255,0.14);
+/* Remova ou sobrescreva qualquer background-color verde */
+background-color: transparent;
+
+/* Controle de tamanho — ajuste height conforme seu header */
+height: 48px;
+width: auto;
+object-fit: contain;
+display: block;
 }
 .brand__name{ font-weight: 800; letter-spacing: 0.2px; }
 .brand__tag{ font-size: 12px; color: var(--muted); margin-top: 2px; }

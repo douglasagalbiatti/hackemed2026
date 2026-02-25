@@ -310,7 +310,30 @@ justify-content: space-between;
 gap: 12px;
 }
 .time__title{ font-weight: 800; }
-.time__date{ color: var(--muted); font-weight: 700; font-size: 13px; }
+.time__date {
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;   /* números alinhados à esquerda /
+position: relative;        / necessário para a barrinha (::after) /
+padding-right: 8px;        / espaço para a barra à direita /
+font-weight: 700;          / deixa em negrito como na imagem /
+line-height: 1.1;
+font-size: 1.1rem;         / ajuste conforme seu layout */
+}
+
+.time__date span {
+display: block;
+}
+
+.time__date::after {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+width: 10px;                /* espessura da barra /
+height: 100%;              / pega a altura dos dois números /
+background-color: #000;    / cor da barra (preto na imagem) */
+}
 .time__body p{ margin: 8px 0 0; color: var(--muted); line-height: 1.6; }
 
 .callout{
